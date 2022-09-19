@@ -1,0 +1,188 @@
+
+/*variables without a class or id*/
+
+body{
+    color: #40514E;
+    text-align: center;
+    background-color: #EAF6F6;
+
+}
+h1 {
+    color: #66BFBF;
+    line-height:  2;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+}
+    h2 {
+        color: #66BFBF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5rem;
+        font-weight: normal;
+        margin-top: 5px;
+    
+    }
+    h3 {
+        color: #11999E;
+    }
+
+    
+    hr {
+        margin-top: 100px;
+        border-style: none;
+        border-top-style: dotted;
+        border-color: #66BFBF;
+        border-width: 5px;
+        height: 0px;
+        width: 4%;
+        padding: 20px;
+    }
+
+/*Upper section*/
+
+.container-fluid{
+
+   padding: 0;
+
+}
+
+
+.iwantyou{
+
+    width: 25%;
+   position:relative;
+    right: 10px;
+    margin-top: 15px;
+
+    
+  }
+
+ 
+  /*Mid section*/
+
+
+.profpic{
+    
+    width: 150px;
+    height: 130px;
+    border-radius: 50%;
+    
+}
+
+            /*Skills-section*/
+
+#skills-section{
+
+margin-top: 30px;
+margin-bottom: 30px;;
+}
+.gate{
+   
+    width: 25%;
+float: right;
+padding: 30px;
+margin-left: 30px;
+border-radius: 90%;
+
+}
+.liberty{
+   
+    border-radius: 90%;
+width: 25%;
+float:left;
+margin-right:  30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+      
+
+}
+
+                /*Testimonials-section*/
+.caroulselimg{
+
+    border-radius: 50%;
+    width:10% ;
+}
+
+
+#testimonials-section, #pricing-section, .contact {
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+   .caroulselimage {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  .carousel-control-prev {
+    background-color: #EAF6F6;
+    border: 0;
+    color:#66BFBF;
+  }
+  .carousel-control-next {
+    background-color: #EAF6F6;
+    border: 0;
+    color:#66BFBF;
+  }
+  
+  .testimonial-text {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin: 20px auto
+  }
+                  /*pricing-section*/
+
+   /*Bottom section*/
+
+    .socialmedia{
+    background-color: #66BFBF;
+  padding-top:20px ;
+  padding-bottom:20px;
+    color: #EAF6F6;
+
+
+  }
+  .btn{
+    margin:20px 20px;
+  }
+
+  /*Mobile responsive version*/
+
+@media (max-width: 1028px ) {
+    .title-image {
+      position: static;
+      
+    }
+    #title {
+      text-align: center;
+    }
+    body {
+      text-align: center;
+    }
+  
+   
+      /*The code is not definitive, it was the way I found to fix the bug for the moment*/
+
+
+    .testimonial-text{
+      
+      font-size: 0.75rem;
+      width: 10rem;
+      
+    }
+    .carousel-item container-fluid{
+  text-align: center;
+}
+        }
+
+      
